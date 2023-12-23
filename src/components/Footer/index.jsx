@@ -1,32 +1,32 @@
 const Footer = () => {
   return (
-    <footer class="pt-12 pb-8 bg-black lg:pt-20 xl:pt-24 sm:pt-16">
-      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-y-12 xl:gap-x-16 gap-x-8">
-          <div class="col-span-2 md:col-span-4 lg:col-span-2">
-            <a href="#" title="" class="flex">
+    <footer className="pt-12 pb-8 bg-black lg:pt-20 xl:pt-24 sm:pt-16">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-y-12 xl:gap-x-16 gap-x-8">
+          <div className="col-span-2 md:col-span-4 lg:col-span-2">
+            <a href="#" title="" className="flex">
               <img
-                class="w-auto h-9"
+                className="w-auto h-9"
                 src="https://landingfoliocom.imgix.net/store/collection/dusk/images/logo.svg"
                 alt=""
               />
             </a>
-            <p class="mt-6 text-base font-normal text-gray-400">
+            <p className="mt-6 text-base font-normal text-gray-400">
               Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
             </p>
           </div>
 
           <div>
-            <h6 class="text-xs font-semibold tracking-widest text-gray-600 uppercase">
+            <h6 className="text-xs font-semibold tracking-widest text-gray-600 uppercase">
               Platform
             </h6>
 
-            <ul class="mt-8 space-y-5">
+            <ul className="mt-8 space-y-5">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   About{" "}
@@ -37,7 +37,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Features{" "}
@@ -48,7 +48,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Pricing & Plans{" "}
@@ -59,7 +59,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Contact{" "}
@@ -69,16 +69,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <h6 class="text-xs font-semibold tracking-widest text-gray-600 uppercase">
+            <h6 className="text-xs font-semibold tracking-widest text-gray-600 uppercase">
               Resources
             </h6>
 
-            <ul class="mt-8 space-y-5">
+            <ul className="mt-8 space-y-5">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Account{" "}
@@ -89,7 +89,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Tools{" "}
@@ -100,7 +100,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Newsletter{" "}
@@ -111,7 +111,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   FAQ{" "}
@@ -121,16 +121,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <h6 class="text-xs font-semibold tracking-widest text-gray-600 uppercase">
+            <h6 className="text-xs font-semibold tracking-widest text-gray-600 uppercase">
               Products
             </h6>
 
-            <ul class="mt-8 space-y-5">
+            <ul className="mt-8 space-y-5">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Swiftly{" "}
@@ -141,7 +141,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Rareblocks{" "}
@@ -152,7 +152,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   ClarityUI{" "}
@@ -163,7 +163,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Landingfolio{" "}
@@ -173,16 +173,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <h6 class="text-xs font-semibold tracking-widest text-gray-600 uppercase">
+            <h6 className="text-xs font-semibold tracking-widest text-gray-600 uppercase">
               Legals
             </h6>
 
-            <ul class="mt-8 space-y-5">
+            <ul className="mt-8 space-y-5">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Guides{" "}
@@ -193,7 +193,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -204,7 +204,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -215,7 +215,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
+                  className="flex text-base font-normal transition-all transform text-gray-50 hover:text-white duruation hover:translate-x-1"
                 >
                   {" "}
                   Licensing{" "}
@@ -225,9 +225,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr class="mt-12 border-gray-900 lg:mt-20 xl:mt-24 sm:mt-16" />
+        <hr className="mt-12 border-gray-900 lg:mt-20 xl:mt-24 sm:mt-16" />
 
-        <p class="mt-8 text-sm font-normal text-center text-gray-500">
+        <p className="mt-8 text-sm font-normal text-center text-gray-500">
           © 2022, All Rights Reserved by Landingfolio
         </p>
       </div>
