@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import aboutIllustration from "../../assets/illustrations/about.svg";
+import aboutIllustration from "../../assets/illustrations/Contactusbro.svg";
 import { motion as m } from "framer-motion";
 import ConForm from "./ConForm";
 
@@ -34,7 +34,7 @@ const Brands = () => {
             Submit the form below to get in touch with us
           </m.p>
         </div>
-        <div className="flex flex-col sm:flex-row-reverse gap-6 justify-center items-center">
+        <div className="flex flex-col-reverse sm:flex-row-reverse gap-6 justify-center items-center">
           <m.div
             initial="hidden"
             whileInView="visible"
