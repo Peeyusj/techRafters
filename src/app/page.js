@@ -1,10 +1,10 @@
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
-import Fqa from "@/components/FQA";
 import AppInfo from "@/components/AppInfo";
 import AppInfo2 from "@/components/AppInfo2";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactForm from "@/components/ContactForm";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Brands />
       {/* <AppInfo /> */}
       <ProjectsSection/>
-      <Fqa />
+      <FAQ />
       <ContactForm/>
       {/* <AppInfo2 /> */}
     </main>
